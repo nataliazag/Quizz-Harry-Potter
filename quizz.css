@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    background-image:url(https://images.ctfassets.net/usf1vwtuqyxm/4FGYeb1N8hTsBLOdOLRUYw/ed8876b0e1a5c0e72a18b145f3077294/HP-F3-prisoner-of-azkaban-harry-ron-hermione-steps-hogwarts-grounds-web-landscape?fm=jpg&q=70&w=2560);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #000000;
+    background-position: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.container{
+    max-width: 70%; /* Define a largura máxima do conteúdo para manter o layout responsivo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente na página */
+    padding: 1; /* Adiciona preenchimento ao redor do conteúdo */
+    background-color: rgba(68, 71, 68, 0.836);
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 10px;
+    max-height: auto;
+}
+
+body{
+    padding: 7%;
+}
+.Fotos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Foto1 img{
+    max-width: 200px;
+}
+.Foto2 img{
+    max-width: 650px;
+}
+.Foto3 img{
+    max-width: 200px;
+}
+
+.perguntas{
+    display: flex;
+}
+.perguntan1, .perguntan2, .perguntan3{
+    background-color: #f8f8f8;
+    max-width: 25%;
+    padding: 1%;
+    border-radius: 19px;
+    align-items: left;
+    margin: auto; 
+    justify-content: center;
+    margin-bottom: 5%;
+    height: 130px;
+    width: 220px;
+}
+.respostas{
+    display: flex;
+}
+.respostan1, .respostan2, .respostan3{
+    background-color: #f8f8f8;
+    max-width: 20%;
+    padding: 2%;
+    border-radius: 15px;
+    align-items: left, flex-end;
+    margin: auto; 
+    justify-content: end;
+}
+.pontuacao{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8f8f8;
+    margin-left: 300px;
+}
+input{
+    width: 20px;
+    border-radius: 2px;
+}
+button{
+    border-radius: 1px;
+    color: #000000;
+}
+.final{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+

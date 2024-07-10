@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Harry potter.jfif">
+    <link rel="stylesheet" href="quizz.css">
+    <title>Quiz de Harry Potter</title>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <section class="Fotos1">
+            <div class="Foto1">
+                <img src="Foto1.png" alt="Foto carta falante">
+            </div>
+            <div class="Foto2">
+                <img src="hrryt.png" alt="escrita harry potter">
+            </div>
+            <div class="Foto3">
+                <img src="harryt.png" alt="vira-tempo">
+            </div>
+        </section>
+
+        <div class="perguntas">
+            <section class="perguntan1">
+                <h3>Primeira pergunta!!!</h3>
+                <h5>Que dia começa o ano letivo em Hogwarts?</h5>
+            </section><br>
+
+            <section class="perguntan2">
+                <h3>Segunda pergunta!!!</h3>
+                <h5>Qual é o nome da primeira garota que o Harry gostou?</h5>
+            </section><br>
+
+            
+            <section class="perguntan3">
+                <h3>Terceira pergunta!!</h3>
+                    <h5>Qual era o fantasma da Grifinória?</h5>
+                </section><br>
+                
+        </div>
+
+        
+        <div class="respostas">
+            <section class="respostan1">
+                <h3>Escolha a sua resposta:</h3>
+
+                <select name="resposta" id="selectMenu1">
+                    <option value="0">10 de Agosto</option>
+                    <option value="1">01 de Setembro</option>
+                    <option value="0">01 de Fevereiro</option>
+                    <option value="0">15 de Março</option>
+                    <option value="0">05 de Maio</option>
+                </select><br>
+            </section>
+
+            <section class="respostan2">
+                <h3>Escolha a sua resposta:</h3>
+
+                <select name="resposta" id="selectMenu2">
+                    <option value="0">Hermione Granger</option>
+                    <option value="0">Ginny Weasley</option>
+                    <option value="0">Ana Abbott</option>
+                    <option value="0">Astória Greengrass</option>
+                    <option value="1">Cho Chang</option>
+                </select><br>
+            </section>
+            
+            <section class="respostan3">
+                <h3>Escolha a sua resposta:</h3> 
+
+                <select name="resposta" id="selectMenu3">
+                    <option value="0">Frei Gorducho</option>
+                    <option value="0">Dama Cinzenta</option>
+                    <option value="0">Barão Sangrento</option>
+                    <option value="1">Nick Quase-Sem-Cabeça</option>
+                    <option value="0">Pirraça</option>
+                </select><br>
+            </section><br>
+        </div>
+
+        <div class="pontos">
+            <h3>Sua pontuação foi...</h3>
+            <input type="text" id="resultado" readonly><br>
+            <button onclick="Resultado()">Clique para finalizar</button><br>
+        </div>  <BR></BR>
+
+
+
+
+
+
+
+
+
+    </div>
+     <script src="quizz.js"></script>
+</body>
+</html>
